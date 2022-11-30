@@ -1,83 +1,133 @@
 body {
-  display: grid;
-  grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
-  background: var(--bd-white-100);
-  color: var(--text-gray-500);
+    display: grid;
+    grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
+    background: var(--bd-white-100);
+    color: var(--text-gray-500);
 }
 
 .menu {
-  grid-column: 3/5;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  background: var(--navbar-yellow-100);
+    grid-column: 3/5;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background: var(--navbar-yellow-100);
 }
 
 .menu ul {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 
 .menu li a {
-  display: block;
-  padding: 10px;
-  margin-right: 10px;
-  color: var(--text-gray-500);
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: 1.5px;
+    display: block;
+    padding: 10px;
+    margin-right: 10px;
+    color: var(--text-gray-500);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.5px;
 }
 
 img {
-  display: block;
-  max-width: 100%;
+    display: block;
+    max-width: 100%;
 }
 
 .container-img,
 .container-contacts {
-  display: grid;
-  grid-column: 2 / 4;
-  grid-template-columns: 90px 300px 1fr;
-  grid-gap: 20px;
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 64px;
+    display: grid;
+    grid-column: 2 / 4;
+    grid-template-columns: 90px 300px 1fr;
+    grid-gap: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 64px;
 }
 
 .title {
-  font-family: "Poppins", sans-serif;
-  font-size: 96px;
-  line-height: 1;
-  font-weight: 400;
-  margin-bottom: 16px;
-  grid-column: 1 / 4;
+    font-family: "Poppins", sans-serif;
+    font-size: 96px;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 16px;
+    grid-column: 1 / 4;
 }
 
 .animals h2 {
-  font-size: 16px;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  margin-bottom: 16px;
-  color: var(--txtTitle-red);
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+    color: var(--txtTitle-red);
 }
 
 .animals h2::before {
-  content: "";
-  display: inline-block;
-  width: 40px;
-  height: 10px;
-  margin-right: 10px;
-  background: var(--navbar-yellow-100);
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 10px;
+    margin-right: 10px;
+    background: var(--navbar-yellow-100);
 }
 
 .animals p {
-  line-height: 1.2;
-  margin-bottom: 16px;
+    line-height: 1.2;
+    margin-bottom: 16px;
 }
 
 .animals-list {
-  height: 370px;
-  overflow-y: auto;
-  grid-column: 2;
+    height: 370px;
+    overflow-y: auto;
+    grid-column: 2;
+}
+
+.animals-list::-webkit-scrollbar {
+    width: 18px;
+}
+
+.animals-list::-webkit-scrollbar-thumb {
+    background: var(--navbar-yellow-100);
+    border-left: 4px solid var(--bd-white-100);
+    border-right: 4px solid var(--bd-white-100);
+}
+
+.animals-list::-webkit-scrollbar-track {
+    background: var(--bd-white-100);
+}
+
+.animals-description {
+    grid-column: 3;
+}
+
+.animals-description section {
+    margin-bottom: 48px;
+}
+
+.personal-contacts {
+    grid-column: 3;
+}
+
+.personal-contacts li {
+    margin-bottom: 16px;
+}
+
+.personal-contacts li::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    margin-right: 10px;
+    background: var(--navbar-yellow-100);
+}
+
+.footer-copy {
+    grid-column: 3/5;
+    margin-bottom: 32px;
+    background: var(--navbar-yellow-100);
+}
+
+.footer-copy {
+    padding: 20px;
+    font-weight: 600;
 }
