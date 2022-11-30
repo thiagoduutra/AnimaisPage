@@ -131,3 +131,40 @@ img {
     padding: 20px;
     font-weight: 600;
 }
+
+@media (max-width: 700px) {
+    body {
+        grid-template-columns: 1fr;
+    }
+    .menu {
+        margin-top: 0px;
+    }
+    .menu,
+    .container-img,
+    .container-contacts,
+    .footer-copy {
+        grid-column: 1;
+    }
+
+    .container-img,
+    .container-contacts {
+        grid-template-columns: 100px 1fr;
+        grid-gap: 10px;
+    }
+
+    .animals-list {
+        grid-column: 1;
+    }
+
+    .personal-contacts {
+        grid-column: 2/3;
+    }
+
+    .title {
+        font-size: 48px;
+    }
+
+    .footer-copy {
+        margin-bottom: 0px;
+    }
+} ;
