@@ -1,0 +1,30 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
+  background: var(--bd-white-100);
+  color: var(--text-gray-500);
+}
+
+.menu {
+  grid-column: 3/5;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  background: var(--navbar-yellow-100);
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  margin-right: 10px;
+  color: var(--text-gray-500);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
