@@ -1,0 +1,10 @@
+:root {
+  /*background-body*/
+  --bd-white-100: #faf6ed;
+
+  /*text*/
+  --text-gray-500: #222;
+
+  /*bg-navbar*/
+  --navbar-yellow-100: #fb5;
+}
