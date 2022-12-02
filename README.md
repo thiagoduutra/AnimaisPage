@@ -1,10 +1,10 @@
 ## AnimaisPage
 
-![preview](./.github/preview(2).png)
+![preview](./.github/preview.png)
 
 Páginas de animais, feito com conhecimento básico
 
-[Clique aqui para acessar]()
+[Clique aqui para acessar](https://thiagoduutra.github.io/AnimaisPage/)
 
 ## Tecnologias
 
