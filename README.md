@@ -1,6 +1,6 @@
 ## AnimaisPage
 
-![preview](./.github/preview.png)
+![preview](<./src/img/preview%20(2).png>)
 
 Páginas de animais, feito com conhecimento básico
 
@@ -8,11 +8,11 @@ Páginas de animais, feito com conhecimento básico
 
 ## Tecnologias
 
-- HTML
-- CSS
-- Git, Github, GitFlow
-- JS
+-   HTML
+-   CSS
+-   Git, Github, GitFlow
+-   JS
 
 ## 📞 Contato
 
-- [Linkedin](https://www.linkedin.com/in/thiago-dutra-107b4a213)
+-   [Linkedin](https://www.linkedin.com/in/thiago-dutra-107b4a213)
