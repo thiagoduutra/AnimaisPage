@@ -1,6 +1,7 @@
 const tabImgs = document.querySelectorAll(".js-nav li");
 const tabDesc = document.querySelectorAll(".js-navDescription div");
 
+const links = document.querySelectorAll('.js-menu a[href^="#"]');
 if (tabImgs.length && tabDesc.length) {
     tabDesc[0].classList.add("active");
 
@@ -17,3 +18,18 @@ if (tabImgs.length && tabDesc.length) {
         });
     });
 }
+
+function scrollToDiv(e) {
+    e.preventDefault();
+    const href = e.currentTarget.getAttribute("href");
+    const div = document.querySelector(href);
+
+    div.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+    });
+}
+
+links.forEach((link) => {
+    link.addEventListener("click", scrollToDiv);
+});
